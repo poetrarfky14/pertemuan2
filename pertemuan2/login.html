@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="login.css">
+  <title>Form Login</title>
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card shadow-lg p-4 login-card">
+    <div class="text-center mb-4">
+      <h3 class="fw-bold">Selamat datang di web alan</h3>
+      <p class="text-muted"> Login pake akun kamu sendiri ya </p>
+    </div>
+
+
+    <form action="sidebar.html">
+      <!-- Email -->
+      <div class="mb-3">
+        <label class="form-label"> Email </label>
+        <div class="input-group">
+          <span class="input-group-text">
+            <i class="bi bi-envelope"></i>
+          </span>
+          <input type="email" class="form-control" placeholder="Masukkan email">
+        </div>
+      </div>
+
+      <!-- Password -->
+      <div class="mb-3">
+        <label class="form-label"> Password </label>
+        <div class="input-group">
+          <span class="input-group-text">
+            <!-- icon password -->
+            <i class="bi bi-lock"></i>
+          </span>
+          <input type="password" class="form-control" placeholder="Masukkan password">
+        </div>
+      </div>
+
+      <!-- ini bagian ketika nanti user lupa password -->
+      <div class="d-flex justify-content-between mb-3">
+        <a href="#" class="text-decoration-none"> Lupa Password? </a>
+      </div>
+
+      <!-- Ini Tombol Login -->
+      <button type="submit" class="btn btn-primary w-100">Login</button>
+    </form>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
